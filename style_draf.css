@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --p: #84a59d;
+  --color-primary: #ff9800;
+  --color-dark: #0a0a0a;
+  --color-light: #f7ede2;
+  --c1: #202020;
+  --f1: "Schoolbell", cursive;
+  --h: "Quicksand", sans-serif;
+  --ex: "Poppins", sans-serif;
+  --n: "Poppins", sans-serif;
+}
