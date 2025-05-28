@@ -22,7 +22,8 @@ body {
   color: var(--color-dark);
 }
 
-body {
+html {
+  scroll-behavior: smooth;
 }
 
 .btn_tab {
@@ -108,7 +109,7 @@ p {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-image: url(img/down.png);
+  background-image: url("./img/down.png");
   background-position: 50% 0px;
   background-size: 96px;
   background-repeat: no-repeat;
