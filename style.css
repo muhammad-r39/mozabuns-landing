@@ -2807,6 +2807,15 @@ a.btnNeww.text-center {
   scale: 1.05;
 }
 
+.banner_sec_con .btn_tab {
+  gap: 15px;
+}
+
+.banner_sec_con a.btnNeww.text-center {
+  filter: drop-shadow(1px 1px 5px rgb(0 0 0 / 50%));
+  margin-left: 0;
+}
+
 @media (max-width: 280px) {
   header .navbar .navbar-brand img {
     height: 54px;
@@ -3089,4 +3098,11 @@ a.menu-btn {
 }
 section.bookings {
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner_sec_con .btn_tab {
+    flex-direction: column;
+    max-width: 330px;
+  }
 }
