@@ -2778,6 +2778,35 @@ a.btnNeww.text-center {
   display: flex;
   align-items: center;
 }
+
+.order-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order-options a {
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 0 5px;
+  background-color: #f3a81f;
+  filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 50%));
+}
+
+.order-options a.btn-foodhub {
+  background-color: #cf1e1c;
+  color: #fff !important;
+}
+
+.order-options a:hover {
+  color: inherit;
+  scale: 1.05;
+}
+
 @media (max-width: 280px) {
   header .navbar .navbar-brand img {
     height: 54px;
